@@ -1,0 +1,56 @@
+/* Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Liens du menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Bannière d’accueil */
+.accueil {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Espacement des sections */
+section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h2 {
+    color: #245a81;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
